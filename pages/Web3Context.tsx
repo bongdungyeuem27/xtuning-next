@@ -19,7 +19,8 @@ export const DEFAULT_COMMITMENT = "confirmed";
 export const PROGRAM_ADDRESS = new web3.PublicKey(
   "G7XMcMqA1163mYCQdLwoTaBA9PYS1eZePViaRnWprc9f"
 );
-export const NETWORK = "http://127.0.0.1:8899";
+export const NETWORK = web3.clusterApiUrl("testnet");
+// export const NETWORK = "http://127.0.0.1:8899";
 const programId = new web3.PublicKey(PROGRAM_ADDRESS);
 
 export type Web3ContextInterface = {
