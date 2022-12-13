@@ -17,7 +17,7 @@ import { IDL, Carstore } from "../contracts/carstore";
 
 export const DEFAULT_COMMITMENT = "confirmed";
 export const PROGRAM_ADDRESS = new web3.PublicKey(
-  "G7XMcMqA1163mYCQdLwoTaBA9PYS1eZePViaRnWprc9f"
+  "36fPnEyp2q5k8dDw4qJ6jWd7dz9cMatpecXYtij1Qxt2"
 );
 export const NETWORK = web3.clusterApiUrl("testnet");
 // export const NETWORK = "http://127.0.0.1:8899";
